@@ -1,9 +1,3 @@
----
-title: "자이언트 해마의 블로그 시작"
-date: 2019-09-26 16:15:28 -0400
-categories: 
----
-
 ### 자이언트 해마의 블로그 시작
 
 
@@ -24,9 +18,9 @@ categories:
 
 #####   참고 사이트
 
-- 블로그 생성: https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html
-- Jekyll 테마 적용: https://github.com/mmistakes/minimal-mistakes
-- 블로그 기본 설정: https://devinlife.com/howto%20github%20pages/blog-config
+- 블로그 생성: [https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html](https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html)
+- Jekyll 테마 적용: [https://github.com/mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
+- 블로그 기본 설정: [https://devinlife.com/howto%20github%20pages/blog-config](https://devinlife.com/howto%20github%20pages/blog-config)
 
 
 
@@ -52,5 +46,3 @@ categories:
 #####   참고 사이트
 
 - 구글 애널리틱스: https://blogchannel.tistory.com/149
-
-
