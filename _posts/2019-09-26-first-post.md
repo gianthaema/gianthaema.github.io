@@ -1,25 +1,56 @@
 ---
-title: "Welcome to Jekyll!"
+title: "자이언트 해마의 블로그 시작"
 date: 2019-09-26 16:15:28 -0400
-categories: jekyll update
+categories: 
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+### 자이언트 해마의 블로그 시작
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
 
-​```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​```
+#### 1. GitHub 블로그 만들기
 
-<{{ site.url }}/>
+1. 저장소 생성
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+2. Jekyll 테마 찾기
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+3. _config.yml 파일 가져와서 설정
+
+4. index 파일 생성
+
+5. _posts/ 경로에 새 글 작성
+
+   
+
+#####   참고 사이트
+
+- 블로그 생성: https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html
+- Jekyll 테마 적용: https://github.com/mmistakes/minimal-mistakes
+- 블로그 기본 설정: https://devinlife.com/howto%20github%20pages/blog-config
+
+
+
+#### 2. 구글 애널리틱스 적용
+
+1. 구글 애널리틱스 가입
+
+2. 블로그 등 정보 입력
+
+3. 발급된 추적ID를 _config.yml에 등록
+
+   ```
+   # Analytics
+   analytics:
+     provider               : "google-gtag" # 구글 애널리틱스 등록
+     google:
+       tracking_id          : "UA-134677596-2" # 추적ID
+       anonymize_ip         : # true, false (default)
+   ```
+
+
+
+#####   참고 사이트
+
+- 구글 애널리틱스: https://blogchannel.tistory.com/149
+
+
