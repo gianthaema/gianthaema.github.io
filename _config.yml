@@ -20,7 +20,7 @@ title                    : "GiantHaema 기술블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "GiantHaema"
-description              : "정보를 내측두엽으로 전송"
+description              : "단기기억을 내측두엽으로 전송"
 url                      : "https://gianthaema.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,15 +107,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "gianthaema"
+  name             : "GiantHaema"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "정보를 내측두엽으로 전송"
+  bio              : "단기기억을 내측두엽으로 전송"
   location         : "Republic of Korea"
-  email            : "gianthaema@gmail.com"
+  email            : #"gianthaema@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:gianthaema@gmail.com"
+      # url: "mailto:gianthaema@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/gianthaema"
+      # url: "https://github.com/gianthaema"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -135,6 +135,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gianthaema@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
