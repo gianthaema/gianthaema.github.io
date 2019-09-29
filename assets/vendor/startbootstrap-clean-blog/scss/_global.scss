@@ -7,16 +7,17 @@ body {
 
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 16px 0;
   a {
     text-decoration: underline;
   }
 }
 
 .highlight,pre.highlight{
-  font-family: 'D2 coding', "Consolas", monospace;
   background: #222222;
-  color: #aab1bf;
+  color: #aab1bf
+  padding: 16px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 h1,
