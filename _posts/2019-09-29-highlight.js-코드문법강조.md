@@ -6,46 +6,77 @@ categories: posts
 tags: posts
 ---
 
-
-
-
-
-# 작성중. 테스트 중.
+ 
 
 ### highlight.js?
 
-highlight.js 는 자바스크립트로 만든 코드 구문 강조를 위한 라이브러리로 어떠한 프레임워크에도 의존하지 않고, 거의 모든 마크업에서 작동하며 자동 언어 감지기능을 갖고 있다.
+highlight.js 는 자바스크립트로 만든 코드 구문 강조를 위한 라이브러리로 어떠한 프레임워크에도 의존하지 않고, 거의 모든 마크업에서 작동하며 자동 언어 감지기능을 갖고 있습니다.
 
-아래와 같이 원하는 구문을 박스에 보여준다
+아래와 같이 원하는 구문을 박스에 보여줍니다.
 
 ```
 System.out.println("Hello. World!!")
 ```
 
 * [highlight.js 다운로드 - https://highlightjs.org/download/](https://highlightjs.org/download/)
-
-* [highlight.js 스킨 데모 - https://highlightjs.org/static/demo/ ](https://highlightjs.org/static/demo/)
+* [highlight.js 스타일 데모 - https://highlightjs.org/static/demo/ ](https://highlightjs.org/static/demo/)
 * [highlight.js 사용 설명서 - https://highlightjs.readthedocs.io/en/latest/index.html](https://highlightjs.readthedocs.io/en/latest/index.html)
 
- 
+ <br>
 
 ### highlight.js 적용
 
-#### cdnjs
+highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 __<head>__ 에 넣어 적용하시면 됩니다.
+
+※ 국내에서 해외 CDN 사용 시 느려지는 현상에 대한 글[[관련 링크](https://xetown.com/tips/793706)]이 조금 보여서 저는 다운로드 방식으로 작업했습니다. 다음에 Clean Blog 의 기본 폰트인 구글 폰트를 바꾸면서 이와 관련해서 더 알아볼까 합니다.
+
+###### cdnjs
 
 ```
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 ```
 
-
-
-#### jsdelivr
+##### jsdelivr
 
 ```
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/default.min.css">
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 ```
+
+##### download - [여기](https://highlightjs.org/download/)에서 원하는 언어를 선택하여 다운로드 받습니다.
+
+```
+<link rel="stylesheet" href="./css/androidstudio.css">
+<script src="./js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+```
+
+ <br>
+
+### highlight.js 스타일 변경
+
+스타일을 변경하려면 [여기](https://highlightjs.org/static/demo/)에서 적용할 스타일을 확인한 후에 __default.min.css__ 파일명을 바꾸시면 됩니다.
+
+ <br>
+
+### highlight.js 기본 사용법
+
+자동으로 __<pre><code>__ 를 찾아 구문 강조가 적용되며, 구문 강조를 사용하지 않으려면 __class="nohighlight"__ 를 지정하시면 됩니다.
+
+```html
+<!-- 구문 강조 사용 -->
+<pre><code> ... <code><pre>
+
+<!-- 구문 강조 사용 안함 -->
+<pre><code class="nohighlight">...</code></pre>
+```
+
+<br>
+
+   
 
 
 
