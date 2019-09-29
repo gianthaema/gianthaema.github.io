@@ -64,19 +64,19 @@ highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 _
 
 ### 4. highlight.js 기본 사용법
 
-자동으로 __<pre><code>__ 를 찾아 구문 강조가 적용되며, 구문 강조를 사용하지 않으려면 __class="nohighlight"__ 를 지정하시면 됩니다.
+자동으로 pre>code 를 찾아 구문 강조가 적용되며, 구문 강조를 사용하지 않으려면 __class="nohighlight"__ 를 지정하시면 됩니다.
 
 ```html
 <!-- 구문 강조 사용 -->
 <pre><code> ... <code><pre>
 
 <!-- 구문 강조 사용 안함 -->
-<pre><code class="nohighlight">...</code></pre>
+<pre><code class="nohighlight"> ... </code></pre>
 ```
 
 <br>
 
-   
+
 
 
 
