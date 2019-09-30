@@ -4,7 +4,7 @@ title:  "highlight.js"
 subtitle:   "코드문법강조"
 ---
 
-## Highlight.js - 코드문법강조
+## __Highlight.js - 코드문법강조__
 
 ## __1. highlight.js?__
 
@@ -12,7 +12,7 @@ highlight.js 는 자바스크립트로 만든 코드 구문 강조를 위한 라
 
 아래와 같이 원하는 구문을 박스에 보여줍니다.
 
-```
+```java
 System.out.println("Hello. World!!")
 ```
 
@@ -32,7 +32,7 @@ highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <
 
 * __cdnjs__
 
-```
+```html
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
@@ -40,7 +40,7 @@ highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <
 
 * __jsdelivr__
 
-```
+```html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/default.min.css">
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
@@ -48,7 +48,7 @@ highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <
 
 * __download__ - [여기](https://highlightjs.org/download/)에서 원하는 언어를 선택하여 다운로드 받습니다.
 
-```
+```html
 <link rel="stylesheet" href="./css/androidstudio.css">
 <script src="./js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
