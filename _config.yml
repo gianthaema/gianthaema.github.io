@@ -22,3 +22,17 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# -----------------------------------------------------------------------------
+#  Collections
+# -----------------------------------------------------------------------------
+collections:
+  featured_categories:
+    permalink:       /category/:name/
+    output:          true
+  featured_tags:
+    permalink:       /tag/:name/
+    output:          true
+  projects:
+    permalink:       /projects/:path/
+    output:          true
