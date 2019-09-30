@@ -6,7 +6,7 @@ subtitle:   "코드문법강조"
 
  
 
-### 1. highlight.js?
+### __1. highlight.js?__
 
 highlight.js 는 자바스크립트로 만든 코드 구문 강조를 위한 라이브러리로 어떠한 프레임워크에도 의존하지 않고, 거의 모든 마크업에서 작동하며 자동 언어 감지기능을 갖고 있습니다.
 
@@ -17,12 +17,14 @@ System.out.println("Hello. World!!")
 ```
 
 * [highlight.js 다운로드 링크](https://highlightjs.org/download/)
+
 * [highlight.js 스타일 데모 링크 ](https://highlightjs.org/static/demo/)
+
 * [highlight.js 사용 설명서 링크](https://highlightjs.readthedocs.io/en/latest/index.html)
 
- <br>
+  
 
-### 2. highlight.js 적용
+### __2. highlight.js 적용__
 
 highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <head> 에 넣어 적용하시면 됩니다.
 
@@ -52,15 +54,15 @@ highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <
 <script>hljs.initHighlightingOnLoad();</script>
 ```
 
- <br>
+ 
 
-### 3. highlight.js 스타일 변경
+### __3. highlight.js 스타일 변경__
 
 스타일을 변경하려면 [여기](https://highlightjs.org/static/demo/)에서 적용할 스타일을 확인한 후에 __default.min.css__ 파일명을 바꾸시면 됩니다.
 
- <br>
+ 
 
-### 4. highlight.js 기본 사용법
+### __4. highlight.js 기본 사용법__
 
 자동으로 pre>code 를 찾아 구문 강조가 적용되며, 구문 강조를 사용하지 않으려면 __class="nohighlight"__ 를 지정하시면 됩니다.
 
@@ -72,7 +74,7 @@ highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <
 <pre><code class="nohighlight"> ... </code></pre>
 ```
 
-<br>
+
 
 
 
