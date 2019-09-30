@@ -276,21 +276,21 @@ sass:
 defaults:
   - scope:
       path: blog.md
-    values:
+    values: blog1
       menu: true
       order: 1
   - scope:
       path: projects.md
-    values:
+    values: blog2
       menu: true
       order: 2
   - scope:
       path: resume.md
-    values:
+    values: blog3
       menu: true
       order: 3
   - scope:
       path: about.md
-    values:
+    values: blog4
       menu: true
       order: 4
