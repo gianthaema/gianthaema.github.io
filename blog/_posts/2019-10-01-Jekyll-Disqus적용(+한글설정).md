@@ -61,16 +61,22 @@ defaults:
 
 ## __3. Disqus 한글 설정__
 
-한글 설정이 되지 않았다면 아래 이미지에 표시한 부분들이 Disqus 에서 설정한 언어로 보일 것입니다.<br> 
-![06.DISCUS](/assets/img/posts/2019-10-01-DISCUS/06.DISCUS.png) 
-<br>
-
+한글 설정이 되지 않았다면 아래 이미지에 표시한 부분들이 Disqus 에서 설정한 언어로 보일 것입니다.  
 한글 설정을 하기위해 아래 이미지를 따라 General 설정 페이지에 접근합니다.<br>
-![07.DISCUS](/assets/img/posts/2019-10-01-DISCUS/07.DISCUS.png) 
+![06.DISCUS](/assets/img/posts/2019-10-01-DISCUS/06.DISCUS.png)
+ <br>
+![07.DISCUS](/assets/img/posts/2019-10-01-DISCUS/07.DISCUS.png)
+ <br>
+![08.DISCUS](/assets/img/posts/2019-10-01-DISCUS/08.DISCUS.png)
+<br>
+![09.DISCUS](/assets/img/posts/2019-10-01-DISCUS/09.DISCUS.png)
+<br>
+![10.DISCUS](/assets/img/posts/2019-10-01-DISCUS/10.DISCUS.png)
+<br>
 <br>
 
 언어 설정을 찾아 크롬 개발자도구에서 아무 언어의 `value` 를 `"ko"` 로 변경하신 후에 선택하여 저장합니다.<br>
-![08.DISCUS](/assets/img/posts/2019-10-01-DISCUS/08.DISCUS.png) 
+![11.DISCUS](/assets/img/posts/2019-10-01-DISCUS/11.DISCUS.png)
 <br>
 
 
