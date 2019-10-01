@@ -15,8 +15,8 @@ author1:
     path:            assets/img/jongdo-128.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            assets/img/jongdo-128.png
-      2x:            assets/img/jongdo-256.png
+      1x:            assets/img/profile/jongdo-128.png
+      2x:            assets/img/profile/jongdo-256.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
