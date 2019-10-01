@@ -2,6 +2,7 @@
 layout: post
 title:  "highlight.js"
 subtitle:   "코드문법강조"
+
 ---
 
 ## __Highlight.js - 코드문법강조__
@@ -26,9 +27,7 @@ System.out.println("Hello. World!!")
 
 ## __2. highlight.js 적용__
 
-highlight.js 는 아래의 __cdnjs, jsdelivr, download 방식 중 선택하여 <head> 에 넣어 적용하시면 됩니다.
-
-※ 국내에서 해외 CDN 사용 시 느려지는 현상에 대한 글[[관련 링크](https://xetown.com/tips/793706)]이 조금 보여서 저는 다운로드 방식으로 작업했습니다. 다음에 Clean Blog 의 기본 폰트인 구글 폰트를 바꾸면서 이와 관련해서 더 알아볼까 합니다.
+__highlight.js__ 는 아래의 __cdnjs, jsdelivr, download__ 방식 중 선택하여 __<head>__ 에 넣어 적용하시면 됩니다.
 
 * __cdnjs__
 
