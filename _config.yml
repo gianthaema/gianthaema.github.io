@@ -142,7 +142,7 @@ google_analytics:      UA-148825618-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                https-gijantaema-github-io
+disqus:                https-gianthaema-github-io
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
