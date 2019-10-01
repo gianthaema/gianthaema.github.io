@@ -66,17 +66,17 @@ defaults:
 <br>
 <br>
 한글 설정을 하기위해 아래 이미지를 따라 General 설정 페이지에 접근합니다.<br>
-1. 로그인된 메인페이지 오른쪽 상단에 `Admin` 클릭
+1. 로그인된 메인페이지 오른쪽 상단에 `Admin` 클릭<br>
 ![07.DISCUS](/assets/img/posts/2019-10-01-DISCUS/07.DISCUS.png)
  <br>
-2. `Edit Settings` 클릭
+2. `Edit Settings` 클릭<br>
 ![08.DISCUS](/assets/img/posts/2019-10-01-DISCUS/08.DISCUS.png)
 <br>
-3. `생성한 댓글 서비스 클릭`
+3. `생성한 댓글 서비스 클릭`<br>
 ![09.DISCUS](/assets/img/posts/2019-10-01-DISCUS/09.DISCUS.png)
 <br>
 
-4. `General` 클릭 (아마 기본으로 General 페이지로 접근될 것입니다.)
+4. `General` 클릭 (아마 기본으로 General 페이지로 접근될 것입니다.)<br>
 ![10.DISCUS](/assets/img/posts/2019-10-01-DISCUS/10.DISCUS.png)
 <br>
 <br>
