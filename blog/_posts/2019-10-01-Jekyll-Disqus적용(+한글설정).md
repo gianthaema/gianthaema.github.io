@@ -72,7 +72,7 @@ defaults:
 2. `Edit Settings` 클릭<br>
 ![08.DISCUS](/assets/img/posts/2019-10-01-DISCUS/08.DISCUS.png)
 <br>
-3. `생성한 댓글 서비스 클릭`<br>
+3. 생성한 댓글 서비스 클릭<br>
 ![09.DISCUS](/assets/img/posts/2019-10-01-DISCUS/09.DISCUS.png)
 <br>
 
@@ -81,7 +81,7 @@ defaults:
 <br>
 <br>
 
-5. 언어 설정을 찾아 크롬 개발자도구에서 아무 언어의 `value` 를 `"ko"` 로 변경하신 후에 선택하여 저장합니다.<br>
+5. 언어 설정하는 부분을 `브라우저 개발자도구`를 사용하여 아무 언어의 `value` 를 `"ko"` 로 변경하신 후에 선택하여 저장합니다.<br>
 ![11.DISCUS](/assets/img/posts/2019-10-01-DISCUS/11.DISCUS.png)
 <br>
 
