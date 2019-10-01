@@ -128,7 +128,10 @@ defaults:
     values:
       seo:
         type:          WebPage
-
+  - scope:
+      type: posts
+    values:
+      comments: true
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
