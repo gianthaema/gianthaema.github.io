@@ -2,7 +2,7 @@
 layout: post
 title:  "highlight.js"
 subtitle:   "코드문법강조"
-
+comments: true
 ---
 
 ## __Highlight.js - 코드문법강조__
