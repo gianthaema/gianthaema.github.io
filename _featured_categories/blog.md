@@ -1,9 +1,9 @@
 ---
 layout: list
-title: Blog
+title: Blog test
 slug: blog
 menu: true
 order: 1
 description: >
-  블로그에 적용한 것들을 기록합니다.
+  자이언트해마의 기술 블로그
 ---
