@@ -2,6 +2,7 @@
 layout: post
 title:  "highlight.js"
 subtitle:   "코드문법강조"
+author: author2
 comments: true
 ---
 
