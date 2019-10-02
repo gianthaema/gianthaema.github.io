@@ -54,8 +54,6 @@ menu:
     url:               /study/
   - title:             ETC
     url:               /etc/
-  - title:             Documentation
-    url:               /docs/
   - title:             About
     url:               /about/
 
