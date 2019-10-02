@@ -2,6 +2,7 @@
 layout: post
 title:  "Disqus"
 subtitle:   "댓글서비스"
+author: 이종도
 comments: true
 ---
 

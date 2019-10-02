@@ -1,7 +1,7 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:
+이종도:
   name:              Giant Haema
   email:             gianthaema@gmail.com
 
@@ -62,13 +62,13 @@ author1:
     # download:        <url>
 
 # Another author (optional)
-author2:
-  name:              종 구원
+이종섭:
+  name:              이 종섭
   email:             test@abc.d.e
   about:             |
-    종구원
+    이종섭
 
-  picture:           assets/img/profile/jongdo-128.png
+  picture:           assets/img/profile/jongseop-128.png
   twitter:
   github:
   accent_color:      '#268bd2'
