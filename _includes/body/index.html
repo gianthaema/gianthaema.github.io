@@ -1,19 +1,26 @@
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFVT72P"
+            height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+
+
 {% include body/menu.html %}
 
 <hy-push-state
-  replace-ids="_main"
-  link-selector="a[href]:not([href*='/assets/']):not(.external):not(.no-push-state)"
-  duration="250"
-  script-selector="script:not([type^='math/tex'])"
-  prefetch
+        replace-ids="_main"
+        link-selector="a[href]:not([href*='/assets/']):not(.external):not(.no-push-state)"
+        duration="250"
+        script-selector="script:not([type^='math/tex'])"
+        prefetch
 >
-  {% if page.cover %}
+    {% if page.cover %}
     {% include body/sidebar.html %}
     {% include body/main.html %}
-  {% else %}
+    {% else %}
     {% include body/main.html %}
     {% include body/sidebar.html %}
-  {% endif %}
+    {% endif %}
 </hy-push-state>
 
 {% include body/scripts.html %}
